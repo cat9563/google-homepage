@@ -1,0 +1,53 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    margin-bottom: 10px;
+}
+
+li a {
+    display: block;
+    color: #111;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.cool-link {
+  display: inline-block;
+  color: #111;
+  text-decoration: none;
+}
+
+.cool-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #000;
+    transition: width .3s;
+}
+
+form {
+    color: #111;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+/* Change the link color to #111 (black) on hover */
+
+.cool-link:hover::after {
+    width: 100%;
+    //transition: width .3s;
+}
