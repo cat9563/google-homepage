@@ -1,3 +1,23 @@
+.navbar {
+    background-color: #;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.body {
+  display: block;
+  color: #111;
+  text-align: center;
+  padding: 125px 16px;
+  text-decoration: none;
+}
+
+.image {
+  width: 50%;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -43,7 +63,7 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    width: 50%;
 }
 /* Change the link color to #111 (black) on hover */
 
